@@ -1,0 +1,263 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kurumsal Firma Web Sitesi Şablonu | Kurumsal Firma</title>
+  <meta name="description" content="Modern, güven veren ve satış odaklı çok sayfalı kurumsal web sitesi şablonu.">
+  <meta name="keywords" content="kurumsal web sitesi, b2b template, firma sitesi">
+  <meta property="og:title" content="Kurumsal Firma Web Sitesi Şablonu">
+  <meta property="og:description" content="Çok müşteriye uyarlanabilir, mobil uyumlu ve hızlı kurumsal template.">
+  <link rel="canonical" href="index.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body data-page="index">
+  <header class="site-header" data-site-header>
+    <div class="container header-inner">
+      <!-- EDITABLE: LOGO / BRAND -->
+      <a class="brand" href="index.html" data-logo>
+        <img src="assets/images/placeholders/logo-placeholder.svg" alt="Kurumsal Firma logosu" data-logo-img>
+        <span data-logo-text>Kurumsal Firma</span>
+      </a>
+
+      <button class="mobile-toggle" type="button" data-mobile-toggle aria-controls="mobile-menu" aria-expanded="false">Menü</button>
+
+      <nav class="site-nav" aria-label="Ana menü">
+        <ul class="nav-list" data-render="nav">
+          <li><a href="index.html" class="is-active">Ana Sayfa</a></li>
+          <li><a href="about.html">Hakkımızda</a></li>
+          <li><a href="services.html">Hizmetler</a></li>
+          <li><a href="projects.html">Projeler</a></li>
+          <li><a href="faq.html">SSS</a></li>
+          <li><a href="contact.html">İletişim</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="mobile-panel" id="mobile-menu" data-mobile-menu hidden>
+      <ul class="mobile-nav-list" data-render="mobile-nav">
+        <li><a href="index.html" class="is-active">Ana Sayfa</a></li>
+        <li><a href="about.html">Hakkımızda</a></li>
+        <li><a href="services.html">Hizmetler</a></li>
+        <li><a href="projects.html">Projeler</a></li>
+        <li><a href="faq.html">SSS</a></li>
+        <li><a href="contact.html">İletişim</a></li>
+      </ul>
+    </div>
+    <button class="mobile-overlay" type="button" data-mobile-overlay hidden aria-label="Menüyü kapat"></button>
+  </header>
+
+  <noscript>
+    <div class="noscript-alert">JavaScript kapalı. Site çalışmaya devam eder, ancak dinamik içerik güncellemeleri devre dışı kalır.</div>
+  </noscript>
+
+  <main>
+    <section class="section hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="badge" data-bind="hero.badge">Kurumsal B2B Çözüm Ortağı</span>
+          <!-- EDITABLE: HERO -->
+          <h1 class="hero__title" data-bind="hero.title">Güçlü kurumsal kimlik için hazır web sitesi altyapısı</h1>
+          <p class="hero__subtitle" data-bind="hero.subtitle">Satış odaklı içerik akışı ve hızlı özelleştirilebilir tasarım sistemiyle farklı sektörlere uyarlanabilir yapı.</p>
+          <div class="hero__actions btn-group">
+            <a class="btn btn--primary" href="contact.html" data-bind-href="hero.primaryHref" data-bind="labels.heroPrimaryBtn">Teklif Alın</a>
+            <a class="btn btn--secondary" href="projects.html" data-bind-href="hero.secondaryHref" data-bind="labels.heroSecondaryBtn">Projelerimizi Görün</a>
+          </div>
+          <div class="hero__stats" data-render="stats">
+            <article class="stat-item"><p class="stat-item__value">15+</p><p class="stat-item__label">Yıllık Sektör Deneyimi</p></article>
+            <article class="stat-item"><p class="stat-item__value">240+</p><p class="stat-item__label">Tamamlanan B2B Proje</p></article>
+            <article class="stat-item"><p class="stat-item__value">%98</p><p class="stat-item__label">Müşteri Memnuniyeti</p></article>
+            <article class="stat-item"><p class="stat-item__value">7/24</p><p class="stat-item__label">Süreç Şeffaflığı</p></article>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <img src="assets/images/placeholders/hero-corporate.svg" alt="Kurumsal tesis ve proje yönetim görseli" data-bind-src="hero.image" data-bind-alt="hero.imageAlt">
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--muted">
+      <div class="container grid grid--2">
+        <div>
+          <div class="section-head">
+            <span class="section-head__tag">Kurumsal Tanıtım</span>
+            <h2 class="section-head__title" data-bind="about.introTitle">Güven, disiplin ve ölçeklenebilir süreç yönetimi</h2>
+            <p class="section-head__text" data-bind="about.introText">Kurumsal şirketler için güven veren dijital görünürlük, sürdürülebilir içerik akışı ve net iletişim altyapısı sağlarız.</p>
+          </div>
+        </div>
+        <div class="info-grid">
+          <article class="info-item">
+            <h3>Vizyon Odaklı Planlama</h3>
+            <p>Kurumsal hedeflerinize uygun içerik ve sayfa mimarisi ile stratejik görünürlük sağlar.</p>
+          </article>
+          <article class="info-item">
+            <h3>Ölçeklenebilir Altyapı</h3>
+            <p>Yeni müşteri veya yeni hizmet eklemelerinde teknik karmaşa olmadan sürdürülebilir yapı sunar.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-head__tag">Öne Çıkan Hizmetler</span>
+          <h2 class="section-head__title">Sektöre Uyumlu Hizmet Kartları</h2>
+          <p class="section-head__text">Tüm kart yapıları ortak sistemde çalışır; metin, görsel ve CTA alanları config üzerinden güncellenir.</p>
+        </div>
+        <div class="grid grid--3" data-render="featured-services" data-limit="3">
+          <article class="card"><div class="card__body"><p class="card__meta">Hizmet</p><h3 class="card__title">Örnek Hizmet Kartı</h3><p class="card__text">JavaScript kapalıysa görünen fallback karttır.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--muted">
+      <div class="container grid grid--2">
+        <div>
+          <div class="section-head">
+            <span class="section-head__tag">Neden Biz?</span>
+            <h2 class="section-head__title">Kurumsal Güveni Artıran Çalışma Disiplini</h2>
+          </div>
+          <ul class="check-list">
+            <li>Tek tasarım dili ile tüm sayfalarda bütünlüklü kullanıcı deneyimi</li>
+            <li>Hızlı uyarlanabilir içerik yapısı ile düşük operasyon maliyeti</li>
+            <li>SEO ve performans odaklı sade, sağlam kod mimarisi</li>
+          </ul>
+        </div>
+        <div class="placeholder-box">
+          <img src="assets/images/placeholders/about-vision.svg" alt="Kurumsal ekip ve süreç yönetimi çizimi">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-head__tag">Projeler / Referanslar</span>
+          <h2 class="section-head__title">Başarıya Odaklanan Örnek Projeler</h2>
+        </div>
+        <div class="grid grid--3" data-render="featured-projects" data-limit="3">
+          <article class="card"><div class="card__body"><p class="card__meta">Proje</p><h3 class="card__title">Örnek Proje Kartı</h3><p class="card__text">JavaScript kapalıysa görünen fallback karttır.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--muted">
+      <div class="container info-grid info-grid--3">
+        <article class="info-item">
+          <h3>Güven Unsuru</h3>
+          <p>Kurumsal dil, şeffaf süreç ve düzenli raporlama ile karar vericilere netlik sunulur.</p>
+        </article>
+        <article class="info-item">
+          <h3>Müşteri Yorumu Mantığı</h3>
+          <p>Referans blokları ve sonuç metrikleri ile sosyal kanıt odaklı yapı kurulmuştur.</p>
+        </article>
+        <article class="info-item">
+          <h3>Dönüşüm Odaklı CTA</h3>
+          <p>Her kritik bölümde net çağrı aksiyonu ile teklif sürecine yönlendirme yapılır.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="cta-block">
+          <h2 data-bind="cta.title">Kurumsal web altyapınızı 1 haftada devreye alın</h2>
+          <p data-bind="cta.text">Mevcut içeriklerinizi bu template'e entegre ederek hızlıca güven veren dijital vitrine sahip olun.</p>
+          <div class="btn-group">
+            <a class="btn btn--primary" href="contact.html" data-bind-href="cta.primaryHref" data-bind="cta.primaryText">Ücretsiz Ön Görüşme</a>
+            <a class="btn btn--secondary" href="tel:+902120000000" data-bind-href="cta.secondaryHref" data-bind="cta.secondaryText">Telefonla Ulaşın</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-head__tag">İletişim Özeti</span>
+          <h2 class="section-head__title">Hızlı İletişim Kanalları</h2>
+        </div>
+        <div class="info-grid info-grid--3">
+          <article class="info-item">
+            <h3>Telefon</h3>
+            <a href="tel:+902120000000" data-bind-href="contact.phoneHref" data-bind="contact.phone">+90 (212) 000 00 00</a>
+          </article>
+          <article class="info-item">
+            <h3>E-posta</h3>
+            <a href="mailto:info@ornekfirma.com" data-bind-href="contact.emailHref" data-bind="contact.email">info@ornekfirma.com</a>
+          </article>
+          <article class="info-item">
+            <h3>Adres</h3>
+            <p data-bind="contact.address">Maslak Mah. Büyükdere Cad. No:245 Sarıyer / İstanbul</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="footer-title" data-bind="labels.footerCompanyTitle">Kurumsal</h3>
+        <a class="brand" href="index.html" data-logo>
+          <img src="assets/images/placeholders/logo-placeholder.svg" alt="Kurumsal Firma logosu" data-logo-img>
+          <span data-logo-text>Kurumsal Firma</span>
+        </a>
+        <p class="footer-about" data-bind="footer.aboutText">Kurumsal şirketlerin güven odaklı dijital görünürlüğünü güçlendiren tekrar kullanılabilir web altyapıları sunuyoruz.</p>
+      </div>
+
+      <div>
+        <h3 class="footer-title" data-bind="labels.footerQuickLinksTitle">Hızlı Linkler</h3>
+        <ul class="footer-list" data-render="footer-links">
+          <li><a href="index.html">Ana Sayfa</a></li>
+          <li><a href="about.html">Hakkımızda</a></li>
+          <li><a href="services.html">Hizmetler</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="footer-title" data-bind="labels.footerServicesTitle">Hizmetler</h3>
+        <ul class="footer-list" data-render="footer-services">
+          <li><a href="services.html">Mühendislik Proje Yönetimi</a></li>
+          <li><a href="services.html">Üretim Süreç İyileştirme</a></li>
+          <li><a href="services.html">Lojistik Optimizasyon</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="footer-title" data-bind="labels.footerContactTitle">İletişim</h3>
+        <ul class="footer-list footer-contact">
+          <li><a href="tel:+902120000000" data-bind-href="contact.phoneHref" data-bind="contact.phone">+90 (212) 000 00 00</a></li>
+          <li><a href="mailto:info@ornekfirma.com" data-bind-href="contact.emailHref" data-bind="contact.email">info@ornekfirma.com</a></li>
+          <li data-bind="contact.address">Maslak Mah. Büyükdere Cad. No:245 Sarıyer / İstanbul</li>
+          <li data-bind="contact.hours">Hafta İçi 09:00 - 18:30</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="footer-title" data-bind="labels.footerSocialTitle">Sosyal Medya</h3>
+        <ul class="footer-list" data-render="footer-socials">
+          <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p><span data-bind="brand.name">Kurumsal Firma</span> © <span data-bind="labels.currentYear">2026</span>. <span data-bind="footer.legal">Tüm hakları saklıdır.</span></p>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/905320000000" target="_blank" rel="noopener noreferrer" data-whatsapp-floating data-bind-href="contact.whatsappHref">WhatsApp ile Yazın</a>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
+
+
